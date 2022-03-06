@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: arrays
+# Project: searching
 # Configurations: Debug
 # =============================================================================
 
@@ -39,63 +39,63 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/samarth/Desktop/CC-/arrays/cmake-build-debug/
+cmake_ninja_workdir = /home/samarth/Desktop/CC-/searching/cmake-build-debug/
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/samarth/Desktop/CC-/searching/cmake-build-debug && /snap/clion/180/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/samarth/Desktop/CC-/arrays/cmake-build-debug && /snap/clion/180/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/samarth/Desktop/CC-/arrays -B/home/samarth/Desktop/CC-/arrays/cmake-build-debug
+  COMMAND = cd /home/samarth/Desktop/CC-/searching/cmake-build-debug && /snap/clion/180/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/samarth/Desktop/CC-/searching -B/home/samarth/Desktop/CC-/searching/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/samarth/Desktop/CC-/arrays/cmake-build-debug && /snap/clion/180/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
 # =============================================================================
-# Object build statements for EXECUTABLE target arrays
+# Object build statements for EXECUTABLE target searching
 
 
 #############################################
-# Order-only phony target for arrays
+# Order-only phony target for searching
 
-build cmake_object_order_depends_target_arrays: phony || CMakeFiles/arrays.dir
+build cmake_object_order_depends_target_searching: phony || CMakeFiles/searching.dir
 
-build CMakeFiles/arrays.dir/main.c.o: C_COMPILER__arrays_Debug /home/samarth/Desktop/CC-/arrays/main.c || cmake_object_order_depends_target_arrays
-  DEP_FILE = CMakeFiles/arrays.dir/main.c.o.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/arrays.dir
-  OBJECT_FILE_DIR = CMakeFiles/arrays.dir
-  TARGET_COMPILE_PDB = CMakeFiles/arrays.dir/
-  TARGET_PDB = arrays.pdb
+build CMakeFiles/searching.dir/binary/main.c.o: C_COMPILER__searching_Debug /home/samarth/Desktop/CC-/searching/binary/main.c || cmake_object_order_depends_target_searching
+  DEP_FILE = CMakeFiles/searching.dir/binary/main.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/searching.dir
+  OBJECT_FILE_DIR = CMakeFiles/searching.dir/binary
+  TARGET_COMPILE_PDB = CMakeFiles/searching.dir/
+  TARGET_PDB = searching.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target arrays
+# Link build statements for EXECUTABLE target searching
 
 
 #############################################
-# Link the executable arrays
+# Link the executable searching
 
-build arrays: C_EXECUTABLE_LINKER__arrays_Debug CMakeFiles/arrays.dir/main.c.o
+build searching: C_EXECUTABLE_LINKER__searching_Debug CMakeFiles/searching.dir/binary/main.c.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/arrays.dir
+  OBJECT_DIR = CMakeFiles/searching.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/arrays.dir/
-  TARGET_FILE = arrays
-  TARGET_PDB = arrays.pdb
+  TARGET_COMPILE_PDB = CMakeFiles/searching.dir/
+  TARGET_FILE = searching
+  TARGET_PDB = searching.pdb
 
 # =============================================================================
 # Target aliases.
@@ -106,9 +106,9 @@ build arrays: C_EXECUTABLE_LINKER__arrays_Debug CMakeFiles/arrays.dir/main.c.o
 # =============================================================================
 
 #############################################
-# Folder: /home/samarth/Desktop/CC-/arrays/cmake-build-debug
+# Folder: /home/samarth/Desktop/CC-/searching/cmake-build-debug
 
-build all: phony arrays
+build all: phony searching
 
 # =============================================================================
 # Built-in targets

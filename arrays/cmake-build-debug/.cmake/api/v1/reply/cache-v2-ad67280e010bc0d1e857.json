@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/samarth/Desktop/CC++/arrays/cmake-build-debug"
+			"value" : "/home/samarth/Desktop/CC-/arrays/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -451,7 +451,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/samarth/Desktop/CC++/arrays"
+			"value" : "/home/samarth/Desktop/CC-/arrays"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -983,7 +983,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/samarth/Desktop/CC++/arrays/cmake-build-debug"
+			"value" : "/home/samarth/Desktop/CC-/arrays/cmake-build-debug"
 		},
 		{
 			"name" : "arrays_IS_TOP_LEVEL",
@@ -1007,7 +1007,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/samarth/Desktop/CC++/arrays"
+			"value" : "/home/samarth/Desktop/CC-/arrays"
 		}
 	],
 	"kind" : "cache",
