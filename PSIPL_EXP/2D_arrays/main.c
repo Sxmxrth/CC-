@@ -11,6 +11,7 @@ int main() {
     scanf("%d",&p);
     printf("Enter the number of columns=");
     scanf("%d",&q);
+
     int arr1[m][n];
     int arr2[p][q];
     int a1;
@@ -32,6 +33,7 @@ int main() {
     printf("2)subtraction \n");
     printf("3)multiplication \n");
     printf("4)Transpose \n");
+    printf("5) Norm \n");
     printf("enter your choice: ");
     scanf("%d",&c);
 
@@ -81,19 +83,29 @@ int main() {
             break;
 
         case 3:
-            if(m==p && n==q){
-                int arr3[m][n];
+            if(n==p){
+                int arr3[m][q];
                 for (int i = 0; i <m ; ++i) {
-
+                    printf("\n");
                     for (int j = 0; j <n ; ++j) {
-
+                        printf("\n");
+                        for (int k = 0; k < n; ++k) {
+                            arr3[i][j] += arr1[i][k] * arr2[k][j];
+                        }
+                    }
+                }
+                for (int i = 0; i <m ; ++i) {
+                    printf("\n");
+                    for (int j = 0; j <q ; ++j) {
+                        printf("%d \t",arr3[i][j]);
 
                     }
 
                 }
-
             }
-                break;
+            break;
+
+
             case 4:
                 for (int i = 0; i <m ; ++i) {
                     printf("\n");
@@ -112,7 +124,14 @@ int main() {
                     }
 
                 }
-                 break;
+                break;
+
+        case 5:
+            
+
+        default:
+            printf("enter a valid choice");
+            break;
     }
 
 
