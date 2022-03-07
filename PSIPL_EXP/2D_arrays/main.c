@@ -1,3 +1,4 @@
+#include <math.h>
 #include <stdio.h>
 
 int main() {
@@ -126,8 +127,28 @@ int main() {
                 }
                 break;
 
+            int sum,sum1;
         case 5:
 
+
+            sum = 0;
+            for (int i = 0; i < m ; ++i) {
+                for (int j = 0; j <n ; ++j) {
+                    sum=sum+(arr1[i][j]*arr1[i][j]);
+                }
+
+            }
+            printf("%lf", sqrt(sum));
+
+            sum1=0;
+            for (int i = 0; i <p ; ++i) {
+                for (int j = 0; j <q ; ++j) {
+                    sum1=sum1+(arr2[i][j]*arr2[i][j]);
+                }
+
+            }
+            printf("%lf", sqrt(sum1));
+            break;
 
         default:
             printf("enter a valid choice");

@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays/cmake-build-debug/
+cmake_ninja_workdir = /home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays/cmake-build-debug && /snap/clion/180/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays -B/home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays/cmake-build-debug
+  COMMAND = cd /home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays/cmake-build-debug && /snap/clion/180/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays -B/home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays/cmake-build-debug && /snap/clion/180/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays/cmake-build-debug && /snap/clion/180/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -72,7 +72,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_2D_arrays: phony || CMakeFiles/2D_arrays.dir
 
-build CMakeFiles/2D_arrays.dir/main.c.o: C_COMPILER__2D_arrays_Debug /home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays/main.c || cmake_object_order_depends_target_2D_arrays
+build CMakeFiles/2D_arrays.dir/main.c.o: C_COMPILER__2D_arrays_Debug /home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays/main.c || cmake_object_order_depends_target_2D_arrays
   DEP_FILE = CMakeFiles/2D_arrays.dir/main.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/2D_arrays.dir
@@ -106,7 +106,7 @@ build 2D_arrays: C_EXECUTABLE_LINKER__2D_arrays_Debug CMakeFiles/2D_arrays.dir/m
 # =============================================================================
 
 #############################################
-# Folder: /home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays/cmake-build-debug
+# Folder: /home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays/cmake-build-debug
 
 build all: phony 2D_arrays
 

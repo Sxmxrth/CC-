@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__2D_arrays_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /snap/clion/180/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays -B/home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays/cmake-build-debug
+  command = /snap/clion/180/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays -B/home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

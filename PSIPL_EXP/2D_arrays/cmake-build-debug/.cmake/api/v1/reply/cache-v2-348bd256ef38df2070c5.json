@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays/cmake-build-debug"
+			"value" : "/home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays/cmake-build-debug"
 		},
 		{
 			"name" : "2D_arrays_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays"
+			"value" : "/home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays/cmake-build-debug"
+			"value" : "/home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -487,7 +487,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/samarth/Desktop/CC++/PSIPL_EXP/2D_arrays"
+			"value" : "/home/samarth/Desktop/CC-/PSIPL_EXP/2D_arrays"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
